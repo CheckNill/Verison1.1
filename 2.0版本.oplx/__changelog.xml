@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Tony" date="2019-03-04T14:12:11.024Z" timestamp="2019-03-04T14:12:11.024Z">
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="title" type="string" to="任务 1"/>
+    </change>
+    <change idref="t2" to="t-1" to-position="0" resolved="yes">
+      <change idref="t2" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t2" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2" attribute="title" type="string" to="准备工作"/>
+    </change>
+    <change idref="t13" to="t-1" to-position="1" resolved="yes">
+      <change idref="t13" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t13" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t13" attribute="title" type="string" to="1.1版本需求分析"/>
+    </change>
+    <change idref="t17" to="t-1" to-position="2" resolved="yes">
+      <change idref="t17" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-21T00:15:00.000Z"/>
+      <change idref="t17" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t17" attribute="title" type="string" to="1.0版本编码工作收尾"/>
+    </change>
+    <change idref="t22" to="t-1" to-position="3" resolved="yes">
+      <change idref="t22" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-19T00:00:00.000Z"/>
+      <change idref="t22" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t22" attribute="title" type="string" to="1.0版本App壳子项目"/>
+    </change>
+    <change idref="t30" to="t-1" to-position="4" resolved="yes">
+      <change idref="t30" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t30" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-15T08:45:00.000Z"/>
+      <change idref="t30" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t30" attribute="title" type="string" to="1.1版本编码工作"/>
+    </change>
+    <change idref="t4" to="t3" to-position="0" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="7"/>
+      <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t4" attribute="title" type="string" to="原型分析"/>
+    </change>
+    <change idref="t5" to="t3" to-position="1" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t5" attribute="internalAssignments" type="string" from="" to="4 {20}"/>
+      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-13T00:15:00.000Z"/>
+      <change idref="t5" attribute="title" type="string" to="UI设计分析"/>
+    </change>
+    <change idref="t6" to="t3" to-position="2" resolved="yes">
+      <change idref="t6" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t6" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-15T00:15:00.000Z"/>
+      <change idref="t6" attribute="title" type="string" to="客户端代码分析"/>
+    </change>
+    <change idref="t7" to="t3" to-position="3" resolved="yes">
+      <change idref="t7" attribute="internalAssignments" type="string" from="" to="5 {30}"/>
+      <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t7" attribute="title" type="string" to="后台代码分析"/>
+    </change>
+    <change idref="t9" to="t8" to-position="0" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="53190"/>
+      <change idref="t9" attribute="internalAssignments" type="string" from="" to="5 {30}"/>
+      <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-12T00:15:00.000Z"/>
+      <change idref="t9" attribute="title" type="string" to="部署1.0版本后台代码"/>
+    </change>
+    <change idref="t11" to="t8" to-position="1" resolved="yes">
+      <change idref="t11" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t11" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-04T00:00:00.000Z"/>
+      <change idref="t11" attribute="title" type="string" to="申请邓白氏码"/>
+    </change>
+    <change idref="t12" to="t8" to-position="2" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t12" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-20T06:15:00.000Z"/>
+      <change idref="t12" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="title" type="string" to="完成后台代码部署，可以开始生产"/>
+    </change>
+    <change idref="t14" to="t13" to-position="0" resolved="yes">
+      <change idref="t14" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t14" attribute="internalAssignments" type="string" from="" to="7"/>
+      <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-12T08:45:00.000Z"/>
+      <change idref="t14" attribute="title" type="string" to="原型讨论"/>
+    </change>
+    <change idref="t15" to="t13" to-position="1" resolved="yes">
+      <change idref="t15" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t15" attribute="internalAssignments" type="string" from="" to="4 {20}"/>
+      <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-15T00:00:00.000Z"/>
+      <change idref="t15" attribute="title" type="string" to="UI设计"/>
+    </change>
+    <change idref="t16" to="t13" to-position="2" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t16" attribute="internalAssignments" type="string" from="" to="5 {30}"/>
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-15T00:00:00.000Z"/>
+      <change idref="t16" attribute="title" type="string" to="后台接口编码"/>
+    </change>
+    <change idref="t18" to="t17" to-position="0" resolved="yes">
+      <change idref="t18" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t18" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-21T00:15:00.000Z"/>
+      <change idref="t18" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
+      <change idref="t18" attribute="title" type="string" to="1.0版本RN代码重构（A部分）"/>
+    </change>
+    <change idref="t19" to="t17" to-position="1" resolved="yes">
+      <change idref="t19" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t19" attribute="internalAssignments" type="string" from="" to="2 {60}"/>
+      <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-21T00:15:00.000Z"/>
+      <change idref="t19" attribute="title" type="string" to="1.0版本RN代码重构（B部分）"/>
+    </change>
+    <change idref="t20" to="t17" to-position="2" resolved="yes">
+      <change idref="t20" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t20" attribute="internalAssignments" type="string" from="" to="6 {20}"/>
+      <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-04T00:00:00.000Z"/>
+      <change idref="t20" attribute="title" type="string" to="测试"/>
+    </change>
+    <change idref="t21" to="t17" to-position="3" resolved="yes">
+      <change idref="t21" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-08T00:15:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="发布版本"/>
+    </change>
+    <change idref="t23" to="t22" to-position="0" resolved="yes">
+      <change idref="t23" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t23" attribute="internalAssignments" type="string" from="" to="3 {20}"/>
+      <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-04T00:00:00.000Z"/>
+      <change idref="t23" attribute="title" type="string" to="产品设计"/>
+    </change>
+    <change idref="t24" to="t22" to-position="1" resolved="yes">
+      <change idref="t24" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t24" attribute="internalAssignments" type="string" from="" to="4 {20}"/>
+      <change idref="t24" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-21T00:00:00.000Z"/>
+      <change idref="t24" attribute="title" type="string" to="UI设计"/>
+    </change>
+    <change idref="t25" to="t22" to-position="2" resolved="yes">
+      <change idref="t25" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t25" attribute="internalAssignments" type="string" from="" to="5 {30}"/>
+      <change idref="t25" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-21T00:00:00.000Z"/>
+      <change idref="t25" attribute="title" type="string" to="后台编码"/>
+    </change>
+    <change idref="t26" to="t22" to-position="3" resolved="yes">
+      <change idref="t26" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t26" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-09T00:00:00.000Z"/>
+      <change idref="t26" attribute="title" type="string" to="APP编码（A部分）"/>
+    </change>
+    <change idref="t27" to="t22" to-position="4" resolved="yes">
+      <change idref="t27" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t27" attribute="internalAssignments" type="string" from="" to="2 {60}"/>
+      <change idref="t27" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-09T00:15:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="APP编码（B部分）"/>
+    </change>
+    <change idref="t28" to="t22" to-position="5" resolved="yes">
+      <change idref="t28" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t28" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t28" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-12T00:00:00.000Z"/>
+      <change idref="t28" attribute="title" type="string" to="热更新测试"/>
+    </change>
+    <change idref="t29" to="t22" to-position="6" resolved="yes">
+      <change idref="t29" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t29" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t29" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-12T05:30:00.000Z"/>
+      <change idref="t29" attribute="title" type="string" to="提交应用商店审核"/>
+    </change>
+    <change idref="t31" to="t30" to-position="0" resolved="yes">
+      <change idref="t31" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t31" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t31" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-15T08:45:00.000Z"/>
+      <change idref="t31" attribute="title" type="string" to="多币种支持EOS"/>
+    </change>
+    <change idref="t32" to="t30" to-position="1" resolved="yes">
+      <change idref="t32" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t32" attribute="internalAssignments" type="string" from="" to="2 {60}"/>
+      <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-15T03:15:00.000Z"/>
+      <change idref="t32" attribute="title" type="string" to="多币种支持ABA"/>
+    </change>
+    <change idref="t33" to="t30" to-position="2" resolved="yes">
+      <change idref="t33" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t33" attribute="internalAssignments" type="string" from="" to="2 {60}"/>
+      <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-23T00:00:00.000Z"/>
+      <change idref="t33" attribute="title" type="string" to="持币升息"/>
+    </change>
+    <change idref="t34" to="t30" to-position="3" resolved="yes">
+      <change idref="t34" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t34" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" to="2019-04-30T00:15:00.000Z"/>
+      <change idref="t34" attribute="title" type="string" to="交易挖矿"/>
+    </change>
+    <change idref="t35" to="t30" to-position="4" resolved="yes">
+      <change idref="t35" attribute="effort" type="real" from="28800" to="53100"/>
+      <change idref="t35" attribute="internalAssignments" type="string" from="" to="6 {20}"/>
+      <change idref="t35" attribute="noEarlierThanConstraintDate" type="date" to="2019-05-14T01:15:00.000Z"/>
+      <change idref="t35" attribute="title" type="string" to="测试"/>
+    </change>
+    <change idref="t36" to="t30" to-position="5" resolved="yes">
+      <change idref="t36" attribute="internalAssignments" type="string" from="" to="1 {80}"/>
+      <change idref="t36" attribute="noEarlierThanConstraintDate" type="date" to="2019-05-16T00:15:00.000Z"/>
+      <change idref="t36" attribute="title" type="string" to="1.1版本提交审核"/>
+    </change>
+    <change idref="t3" to="t2" to-position="0" resolved="yes">
+      <change idref="t3" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t3" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3" attribute="title" type="string" to="1.0版本资料分析"/>
+    </change>
+    <change idref="t8" to="t2" to-position="1" resolved="yes">
+      <change idref="t8" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2019-03-11T00:00:00.000Z"/>
+      <change idref="t8" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t8" attribute="title" type="string" to="试部署"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony" date="2019-03-04T14:19:04.448Z" timestamp="2019-03-04T14:19:04.448Z">
+    <change idref="t5" attribute="internalAssignments" type="string" from="4 {20}" to="4" resolved="yes"/>
+    <change idref="t6" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t7" attribute="internalAssignments" type="string" from="5 {30}" to="5" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="53190" to="28800" resolved="yes"/>
+    <change idref="t9" attribute="internalAssignments" type="string" from="5 {30}" to="5" resolved="yes"/>
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" from="2019-03-04T00:00:00.000Z" to="2019-03-08T08:45:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" from="2019-03-11T00:00:00.000Z" to="2019-03-13T00:00:00.000Z" resolved="yes"/>
+    <change idref="t15" attribute="internalAssignments" type="string" from="4 {20}" to="4" resolved="yes"/>
+    <change idref="t16" attribute="internalAssignments" type="string" from="5 {30}" to="5" resolved="yes"/>
+    <change idref="t18" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t19" attribute="internalAssignments" type="string" from="2 {60}" to="2" resolved="yes"/>
+    <change idref="t20" attribute="internalAssignments" type="string" from="6 {20}" to="6" resolved="yes"/>
+    <change idref="t21" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" from="2019-03-04T00:00:00.000Z" to="2019-03-18T08:45:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="internalAssignments" type="string" from="3 {20}" to="3" resolved="yes"/>
+    <change idref="t24" attribute="internalAssignments" type="string" from="4 {20}" to="4" resolved="yes"/>
+    <change idref="t25" attribute="internalAssignments" type="string" from="5 {30}" to="5" resolved="yes"/>
+    <change idref="t26" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t27" attribute="internalAssignments" type="string" from="2 {60}" to="2" resolved="yes"/>
+    <change idref="t28" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t29" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t31" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" from="2019-04-15T03:15:00.000Z" to="2019-04-16T00:00:00.000Z" resolved="yes"/>
+    <change idref="t32" attribute="internalAssignments" type="string" from="2 {60}" to="2" resolved="yes"/>
+    <change idref="t33" attribute="internalAssignments" type="string" from="2 {60}" to="2" resolved="yes"/>
+    <change idref="t34" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+    <change idref="t35" attribute="internalAssignments" type="string" from="6 {20}" to="6" resolved="yes"/>
+    <change idref="t36" attribute="internalAssignments" type="string" from="1 {80}" to="1" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:12:11.022Z" timestamp="2019-03-04T14:12:11.022Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" from="" to="邓远明"/>
+      <change idref="r2" attribute="unitsAvailable" type="real" from="1" to="0.5999999642372131"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" from="" to="产品经理"/>
+      <change idref="r3" attribute="unitsAvailable" type="real" from="1" to="0.199999988079071"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" from="" to="UI设计师"/>
+      <change idref="r4" attribute="unitsAvailable" type="real" from="1" to="0.199999988079071"/>
+    </change>
+    <change idref="r5" to="r-1" to-position="4" resolved="yes">
+      <change idref="r5" attribute="name" type="string" from="" to="后台"/>
+      <change idref="r5" attribute="unitsAvailable" type="real" from="1" to="0.2999999821186066"/>
+    </change>
+    <change idref="r6" to="r-1" to-position="5" resolved="yes">
+      <change idref="r6" attribute="name" type="string" from="" to="测试"/>
+      <change idref="r6" attribute="unitsAvailable" type="real" from="1" to="0.199999988079071"/>
+    </change>
+    <change idref="r7" to="r-1" to-position="6" resolved="yes">
+      <change idref="r7" attribute="name" type="string" from="" to="全员"/>
+    </change>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.7999999523162842" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="黄武杰" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:19:04.448Z" timestamp="2019-03-04T14:19:04.448Z">
+    <change idref="r1" attribute="unitsAvailable" type="real" from="0.7999999523162842" to="1" resolved="yes"/>
+    <change idref="r2" attribute="unitsAvailable" type="real" from="0.5999999642372131" to="1" resolved="yes"/>
+    <change idref="r3" attribute="unitsAvailable" type="real" from="0.199999988079071" to="1" resolved="yes"/>
+    <change idref="r4" attribute="unitsAvailable" type="real" from="0.199999988079071" to="1" resolved="yes"/>
+    <change idref="r5" attribute="unitsAvailable" type="real" from="0.2999999821186066" to="1" resolved="yes"/>
+    <change idref="r6" attribute="unitsAvailable" type="real" from="0.199999988079071" to="1" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:23:09.606Z" timestamp="2019-03-04T14:23:09.606Z">
+    <change idref="r1" attribute="name" type="string" from="黄武杰" to="移动端A" resolved="yes"/>
+    <change idref="r2" attribute="name" type="string" from="邓远明" to="移动端B" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:23:58.570Z" timestamp="2019-03-04T14:23:58.570Z">
+    <change idref="r1" attribute="name" type="string" from="移动端A" to="移动端Tony" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:25:01.555Z" timestamp="2019-03-04T14:25:01.555Z">
+    <change idref="r1" attribute="name" type="string" from="移动端Tony" to="移动端 Tony" resolved="yes"/>
+    <change idref="r2" attribute="name" type="string" from="移动端B" to="移动端 Tom" resolved="yes"/>
+    <change idref="r3" attribute="name" type="string" from="产品经理" to="产品经理 Herry" resolved="yes"/>
+    <change idref="r4" attribute="name" type="string" from="UI设计师" to="UI设计师 Touy" resolved="yes"/>
+    <change idref="r5" attribute="name" type="string" from="后台" to="后台 Qury" resolved="yes"/>
+    <change idref="r6" attribute="name" type="string" from="测试" to="测试 Holly" resolved="yes"/>
+    <change idref="r7" attribute="name" type="string" from="全员" to="全员 All" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony" date="2019-03-04T14:25:40.428Z" timestamp="2019-03-04T14:25:40.428Z">
+    <change idref="r1" attribute="name" type="string" from="移动端 Tony" to="移动端 Troy" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Tony" date="2019-03-04T14:12:11.022Z" timestamp="2019-03-04T14:12:11.022Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2019-03-04T00:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="¥1,234.56" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
